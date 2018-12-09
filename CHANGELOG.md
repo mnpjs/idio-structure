@@ -1,5 +1,9 @@
 ## 9 December 2018
 
+### 1.1.2
+
+- [feature] Commit the `Dockerfile`.
+
 ### 1.0.1
 
 - [fix] Run `yarn` on create.

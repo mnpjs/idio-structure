@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "doc": "NODE_DEBUG=doc doc documentary -o README.md",
     "build": "alamode src -o build -s -i bin/index.js",
-    "dev": "node src/bin"
+    "dev": "node src/bin",
+    "dokku": "git push dokku"
   },
   "files": [
     "build"
