@@ -18,6 +18,25 @@ import core from '@idio/core'
 })()
 ```
 
+## Structure
+
+The project will have the minimal structure to start the webserver.
+
+```m
+structure
+├── CHANGELOG.md
+├── README.md
+├── build
+│   └── bin
+│       └── app.js
+├── package.json
+├── src
+│   └── bin
+│       ├── app.js
+│       └── index.js
+└── yarn.lock
+```
+
 ## Using With MNP
 
 This structure is cloned with appropriate parameters (i.e., copyright links and license placeholders) using the `mnp` package bootstrapper.
