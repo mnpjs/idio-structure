@@ -1,7 +1,7 @@
 {
   "name": "@mnpjs/idio",
   "version": "1.0.0",
-  "description": "The Idio Web Server Structure With Logs.page Integration.",
+  "description": "The Idio Web Server MNP Structure For Easy Node.js Backend Website Building.",
   "scripts": {
     "test": "zoroaster test/spec",
     "test-watch": "zoroaster test/spec --watch",
@@ -24,7 +24,9 @@
   ],
   "keywords": [
     "idio",
-    "mnpjs"
+    "mnpjs",
+    "web server",
+    "website"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
