@@ -1,6 +1,6 @@
 {
   "name": "@mnpjs/idio",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "The Idio Web Server MNP Structure For Easy Node.js Backend Website Building.",
   "scripts": {
     "test": "zoroaster test/spec",
