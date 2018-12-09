@@ -1,5 +1,13 @@
 # @mnpjs/idio
 
-The Idio Web Server [MNP](https://mnpjs.org) Structure For Easy Node.js Backend Website Building.
+The [Idio Web Server](https://github.com/idiocc/core) [MNP](https://mnpjs.org) Structure For Easy Node.js Backend Website Building.
 
 %EXAMPLE: structure/src/bin/app.js%
+
+## Using With MNP
+
+This structure is cloned with appropriate parameters (i.e., copyright links and license placeholders) using the `mnp` package bootstrapper.
+
+```sh
+mnp new-website -s idio
+```
