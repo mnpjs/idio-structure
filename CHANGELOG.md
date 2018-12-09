@@ -1,6 +1,6 @@
 ## 9 December 2018
 
-### 1.1.2
+### 1.1.0
 
 - [feature] Commit the `Dockerfile`.
 
