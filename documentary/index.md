@@ -17,3 +17,9 @@ This structure is cloned with appropriate parameters (i.e., copyright links and 
 ```sh
 mnp new-website -s idio
 ```
+
+## Dockerfile
+
+The webserver is meant to be deployed on a docker conatiner (e.g., on a Dokku host is optimal). The following `Dockerfile` based off `node:alpine` is used.
+
+%EXAMPLE: structure/Dockerfile%
