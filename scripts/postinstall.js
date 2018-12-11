@@ -1,11 +1,16 @@
-const { resolve } = require('path')
+const { join } = require('path')
 const { renameSync } = require('fs')
 
-const oldPath = resolve(__dirname, '../structure/_yarn.lock')
-const newPath = resolve(__dirname, '../structure/yarn.lock')
+const rename = (file) => {
+  const oldPath = join(__dirname, '../structure', `_${file}`)
+  const newPath = join(__dirname, '../structure', file)
 
-try {
-  renameSync(oldPath, newPath)
-} catch ({ message }) {
-  console.error(message)
+  try {
+    renameSync(oldPath, newPath)
+  } catch ({ message }) {
+    console.error(message)
+  }
 }
+
+rename('yarn.lock')
+rename('.env')

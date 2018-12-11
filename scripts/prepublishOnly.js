@@ -1,14 +1,19 @@
-const { resolve } = require('path')
+const { join } = require('path')
 const { createReadStream, createWriteStream } = require('fs')
 
-const from = resolve(__dirname, '../structure/yarn.lock')
-const to = resolve(__dirname, '../structure/_yarn.lock')
+const clone = (file) => {
+  const from = join(__dirname, '../structure', file)
+  const to = join(__dirname, '../structure', `_${file}`)
 
-const rs = createReadStream(from)
-const ws = createWriteStream(to)
+  const rs = createReadStream(from)
+  const ws = createWriteStream(to)
 
-rs.pipe(ws)
+  rs.pipe(ws)
 
-rs.on('close', () => {
-  console.log('cloned file _yarn.lock')
-})
+  rs.on('close', () => {
+    console.log('cloned file _%s', file)
+  })
+}
+
+clone('yarn.lock')
+clone('.env')
