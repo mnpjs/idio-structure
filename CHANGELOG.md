@@ -1,3 +1,9 @@
+## 10 December 2018
+
+### 1.2.0
+
+- [feature] More structure: use dotenv, facebook auth, static dir.
+
 ## 9 December 2018
 
 ### 1.1.0
