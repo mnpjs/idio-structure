@@ -12,5 +12,6 @@ export default async ({
     middleware,
   })
   if (watch) watchRoutes(w)
+  app.use(router.routes())
   return { app, url }
 }
