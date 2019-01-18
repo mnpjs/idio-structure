@@ -1,3 +1,9 @@
+## 18 January 2019
+
+### 1.3.0 
+
+- [feature] Use `@idio/router`, remove build.
+
 ## 10 December 2018
 
 ### 1.2.0
